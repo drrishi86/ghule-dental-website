@@ -16,6 +16,7 @@ const mrTranslations = {
   nav_philosophy: "कार्यपद्धती",
   nav_treatments: "उपचार",
   nav_trust: "आमचे वेगळेपण",
+  nav_gallery: "गॅलरी",
   nav_contact: "संपर्क",
   btn_book: "अपॉइंटमेंट घ्या",
   btn_book_full: "अपॉइंटमेंट बुक करा",
@@ -252,6 +253,9 @@ const mrTranslations = {
   gal4: "Ivoclar Bluephase LED क्युअरिंग लाईट",
   gal5: "Runyes डिजिटल ऑटोक्लेव्ह निर्जंतुकीकरण",
   gal6: "मायक्रोस्कोप-आधारित अचूक रूट कॅनाल",
+  gal7: "रिसेप्शन आणि प्रतीक्षा कक्ष",
+  gal8: "आधुनिक व निर्जंतुक उपचार कक्ष",
+  gal9: "वरद हाईट्स, अंबाजोगाई",
 
   cta_eyebrow: "प्रामाणिक व निवांत दंतसेवेचा अनुभव घ्या",
   cta_title: "तपासणीसाठी अपॉइंटमेंट बुक करायची आहे का?",
