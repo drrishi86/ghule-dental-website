@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghule Dental Care &amp; Root Canal Centre | Ambajogai, Beed</title>
+  <meta name="description" content="Ghule Dental Care & Root Canal Centre in Ambajogai — 1st & only clinic in Beed & nearby districts with a Dental Operating Microscope. Led by Dr. Hrishikesh Ghule (B.D.S., M.D.S.) & Dr. Ashwini Shep Ghule (B.D.S.)." />
+  <link rel="icon" href="logo.png.png" type="image/png" />
+  <link rel="shortcut icon" href="logo.png" type="image/png" />
+
+  <!-- Simple, Elegant Fonts (English + Crisp Marathi Devanagari) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sticky Luxury Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <div class="brand-logo">
+          <img
+            src="logo.png.png"
+            onerror="if(!this.dataset.f){this.dataset.f=1;this.src='logo.png';}"
+            alt="Ghule Dental Care &amp; Root Canal Centre Logo" />
+        </div>
+        <div class="brand-text">
+          <strong data-i18n="brand_name">Ghule Dental Care</strong>
+          <span data-i18n="brand_sub">&amp; Root Canal Centre</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#welcome" data-i18n="nav_welcome">Welcome</a></li>
+        <li><a href="#technology" data-i18n="nav_tech">Equipment</a></li>
+        <li><a href="#about" data-i18n="nav_doctors">Our Doctors</a></li>
+        <li><a href="#philosophy" data-i18n="nav_philosophy">Philosophy</a></li>
+        <li><a href="#treatments" data-i18n="nav_treatments">Treatments</a></li>
+        <li><a href="#trust" data-i18n="nav_trust">Why Us</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="lang-toggle" role="group" aria-label="Language Switcher">
+          <button type="button" class="lang-btn active" data-lang="en" onclick="setLanguage('en')">EN</button>
+          <button type="button" class="lang-btn" data-lang="mr" onclick="setLanguage('mr')">मराठी</button>
+        </div>
+        <button type="button" class="btn btn-gold nav-cta" onclick="openBookingModal()" data-i18n="btn_book">Book Appointment</button>
+        <button type="button" class="nav-toggle" aria-label="Toggle Menu" onclick="document.getElementById('navbar').classList.toggle('open')">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div>
+        <div class="pioneer-pill" data-i18n="hero_pill">✦ 1st &amp; Only Dental Operating Microscope in Beed &amp; Nearby Districts</div>
+        <h1 data-i18n-html="hero_title">Unhurried, Honest &amp; <em>Microscope-Guided Dentistry</em></h1>
+        <p data-i18n="hero_desc">
+          Welcome to Ghule Dental Care &amp; Root Canal Centre in Ambajogai. We take time to listen, plan thoughtfully without rushing, and perform every procedure with utmost precision—backed by Beed district's first Dental Operating Microscope, Ergoptix 3x loupes, and DSLR clinical transparency.
+        </p>
+        <div class="hero-actions">
+          <button type="button" class="btn btn-gold" onclick="openBookingModal()" data-i18n="btn_book_full">Book an Appointment</button>
+          <a class="btn btn-outline-light" href="tel:+919067801333" data-i18n="btn_call">Call 90678 01333</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-scope-visual">
+          <img
+            src="image.png"
+            onerror="this.onerror=null;this.src='https://www.scivisionmedical.com/images/e6f88a2233dd315e173eb45f2492471be85f39e9.png';"
+            alt="iSee 9000 Dental Operating Microscope at Ghule Dental Care Ambajogai" />
+        </div>
+        <span class="hero-card-label" data-i18n="hero_card_label">Unmatched Regional Precision</span>
+        <h3 data-i18n="hero_card_title">1st &amp; Only Dental Operating Microscope</h3>
+        <ul class="hero-list">
+          <li data-i18n="hero_li_1">Up to 19.2x multi-step magnification for micro-endodontic accuracy</li>
+          <li data-i18n="hero_li_2">Ergoptix 3x loupes worn for every single procedure</li>
+          <li data-i18n="hero_li_3">DSLR macro &amp; ring-flash pre-op, intra-op &amp; post-op clarity</li>
+          <li data-i18n="hero_li_4">Zero compromise on materials—treatments built to last</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating 4-Card Quick-Info Strip -->
+  <div class="container info-strip-wrap">
+    <div class="info-strip">
+      <a class="info-card" href="#technology">
+        <div class="info-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <div>
+          <small data-i18n="info1_small">Beed &amp; Nearby Districts</small>
+          <strong data-i18n="info1_strong">1st &amp; Only Microscope</strong>
+          <span data-i18n="info1_span">Up to 19.2x Precision</span>
+        </div>
+      </a>
+
+      <div class="info-card">
+        <div class="info-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C8.5 2 6 4.7 6 8.2c0 2.7 1.1 5.3 1.7 8 .4 1.8.8 5.8 2.2 5.8 1.2 0 1.3-3.2 2.1-3.2s.9 3.2 2.1 3.2c1.4 0 1.8-4 2.2-5.8.6-2.7 1.7-5.3 1.7-8C18 4.7 15.5 2 12 2Z"/></svg>
+        </div>
+        <div>
+          <small data-i18n="info2_small">Clinical Legacy</small>
+          <strong data-i18n="info2_strong">18+ Years Experience</strong>
+          <span data-i18n="info2_span">M.D.S. Specialist Care</span>
+        </div>
+      </div>
+
+      <button type="button" class="info-card" onclick="openBookingModal()" style="text-align:left;cursor:pointer;font-family:inherit;">
+        <div class="info-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <div>
+          <small data-i18n="info3_small">Talk to Our Specialists</small>
+          <strong>+91 90678 01333</strong>
+          <span data-i18n="info3_span">Tap to Book on WhatsApp</span>
+        </div>
+      </button>
+
+      <div class="info-card">
+        <div class="info-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div>
+          <small data-i18n="info4_small">Opening Hours</small>
+          <strong data-i18n="info4_strong">Mon – Sat</strong>
+          <span data-i18n="info4_span">10:30 AM – 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Welcome & Introductory Section -->
+  <section class="section section-cream" id="welcome">
+    <div class="container">
+      <div class="welcome-grid">
+        <div class="welcome-copy">
+          <span class="eyebrow" data-i18n="welcome_eyebrow">Welcome to Our Clinic</span>
+          <h2 data-i18n="welcome_title">A Place Where You Are Truly Heard, Respected &amp; Cared For</h2>
+          <p data-i18n-html="welcome_p1">
+            Established in Ambajogai in 2018 by <strong>Dr. Hrishikesh Ghule</strong> (M.D.S., Conservative Dentistry &amp; Endodontics) together with <strong>Dr. Ashwini Shep Ghule</strong> (B.D.S., Paediatric &amp; Geriatric Care), <strong>Ghule Dental Care &amp; Root Canal Centre</strong> was founded with one clear purpose: bringing honest, metropolitan-grade microscopic dentistry right to the families of Beed and nearby districts.
+          </p>
+          <p data-i18n="welcome_p2">
+            From saving badly damaged adult teeth to gentle, fear-free dentistry for children and senior citizens, every consultation begins with unhurried conversation, clear clinical photography, and genuine ethical advice—never driven by commercial motives.
+          </p>
+          <div class="welcome-stats">
+            <div class="stat-box">
+              <strong data-i18n="stat1_num">18+ Yrs</strong>
+              <span data-i18n="stat1_lbl">Endodontic Legacy</span>
+            </div>
+            <div class="stat-box">
+              <strong data-i18n="stat2_num">1st in Beed</strong>
+              <span data-i18n="stat2_lbl">Dental Microscope</span>
+            </div>
+            <div class="stat-box">
+              <strong data-i18n="stat3_num">100%</strong>
+              <span data-i18n="stat3_lbl">Visual Transparency</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="heart-letter">
+          <span class="heart-letter-label" data-i18n="heart_label">A Promise From Our Heart</span>
+          <blockquote data-i18n="heart_quote">
+            “We believe great dentistry begins by truly listening—giving you ample time to share your concerns, planning every step thoughtfully, and never rushing into a procedure. We never guide a patient with money as our motive; you deserve full value for every single rupee of your hard-earned money, with uncompromising materials and care built to last for years.”
+          </blockquote>
+          <div class="heart-sign" data-i18n="heart_sign">— Dr. Hrishikesh Ghule &amp; Dr. Ashwini Shep Ghule</div>
+        </div>
+      </div>
+
+      <div class="promise-grid">
+        <div class="promise-card">
+          <div class="promise-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 data-i18n="prom1_t">We Listen &amp; Never Rush</h3>
+          <p data-i18n="prom1_p">We give you ample time to share every symptom, evaluate carefully, and plan each step thoughtfully before starting any treatment.</p>
+        </div>
+
+        <div class="promise-card">
+          <div class="promise-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 data-i18n="prom2_t">Ethics Before Money</h3>
+          <p data-i18n="prom2_p">We never guide patients with money as our primary purpose. Every recommendation is focused strictly on what is right for your long-term health.</p>
+        </div>
+
+        <div class="promise-card">
+          <div class="promise-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 data-i18n="prom3_t">Uncompromising Materials</h3>
+          <p data-i18n="prom3_p">Zero shortcuts on what goes inside your mouth or the instruments we use—trusted global brands chosen so your restorations truly last.</p>
+        </div>
+
+        <div class="promise-card">
+          <div class="promise-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3 data-i18n="prom4_t">Full Value for Every Rupee</h3>
+          <p data-i18n="prom4_p">We respect your hard-earned money. Through utmost clinical detail and DSLR case photos, you see the quality of care delivered at every stage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Precision Technology, Sterilization & Transparency Section -->
+  <section class="section section-white" id="technology">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="tech_eyebrow">World-Class Equipment &amp; Transparency</span>
+        <h2 data-i18n="tech_title">Seeing What Others Miss—With Zero Compromise on Quality</h2>
+        <p data-i18n="tech_sub">We invest in the finest global dental equipment and sterilization systems so every procedure is accurate, safe, transparent, and built to endure.</p>
+      </div>
+
+      <!-- Flagship Spotlight: Dental Operating Microscope -->
+      <div class="scope-feature">
+        <div class="scope-top-grid">
+          <div class="scope-visual-stack">
+            <div class="scope-img-box">
+              <img
+                src="image.png"
+                onerror="this.onerror=null;this.src='https://www.scivisionmedical.com/images/e6f88a2233dd315e173eb45f2492471be85f39e9.png';"
+                alt="iSee 9000 Dental Operating Microscope" />
+              <div class="scope-img-caption" data-i18n="scope_caption">Dental Operating Microscope — 1st &amp; Only in Beed &amp; Nearby Districts</div>
+            </div>
+
+            <div class="scope-action-thumb">
+              <img
+                src="https://img.youtube.com/vi/M-e0fExndF4/0.jpg"
+                onerror="this.onerror=null;this.src='image.png';"
+                alt="Microscope-Guided Surgical Precision" />
+              <div>
+                <strong data-i18n="scope_thumb_t">High-Precision Micro-Endodontics</strong>
+                <span data-i18n="scope_thumb_p">Coaxial illumination and optical clarity bring microscopic root canal anatomy into sharp focus.</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="pioneer-pill" style="margin-bottom:14px;" data-i18n="scope_pill">✦ Exclusive in Beed &amp; Nearby Districts</div>
+            <h3 data-i18n="scope_title">1st &amp; Only Dental Operating Microscope in the Region</h3>
+            <p data-i18n-html="scope_p1">
+              Ghule Dental Care &amp; Root Canal Centre is proud to be the <strong>first and only dental clinic in Beed and nearby districts</strong> equipped with a fully outfitted Dental Operating Microscope.
+            </p>
+            <p data-i18n="scope_p2">
+              Microscopic root canals are often narrower than a human hair. Treating them under multi-step magnification allows us to locate hidden canals, preserve maximum natural tooth strength, and save badly damaged or previously failed teeth that might otherwise be lost.
+            </p>
+            <ul class="scope-points">
+              <li data-i18n="scope_li1">Reveals hidden extra canals, hairline fractures, and deep infections</li>
+              <li data-i18n="scope_li2">Conserves healthy natural tooth structure for greater strength</li>
+              <li data-i18n="scope_li3">Essential for complex root canals, retreatment cases, and restorative care</li>
+              <li data-i18n="scope_li4">Designed for long-term success that serves you comfortably for years</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Magnification Progression Chart (2.1x to 19.2x) -->
+        <div class="mag-showcase">
+          <small data-i18n="mag_small">Multi-Step Optical Clarity</small>
+          <h4 data-i18n="mag_title">From 2.1x to 19.2x Magnification — Utmost Attention to Every Detail</h4>
+          <img
+            src="image (1).png.png"
+            onerror="if(!this.dataset.f){this.dataset.f=1;this.src='image (1).png';}"
+            alt="Microscope magnification levels from 2.1x, 3.2x, 5.1x, 8.0x, 12.8x to 19.2x" />
+          <p data-i18n-html="mag_desc">
+            With six optical magnification steps—from <strong>2.1x</strong> up to <strong>19.2x</strong>—every margin, crack, and microscopic canal is clearly visible, leaving zero room for guesswork.
+          </p>
+        </div>
+      </div>
+
+      <!-- 4-Card Equipment & Transparency Grid -->
+      <div class="tech-grid">
+        <!-- Card 1: Ergoptix 3x Loupes -->
+        <div class="tech-card">
+          <div class="tech-visual">
+            <img
+              src="image (2).png"
+              onerror="if(!this.dataset.f){this.dataset.f=1;this.src='fd821b_46a7eeedf0a646318770d7b542a712be~mv2.jpg';}"
+              alt="Ergoptix 3x Dental Loupes with LED Headlight" />
+          </div>
+          <div>
+            <span class="eyebrow" style="margin-bottom:8px;" data-i18n="loupes_eyebrow">Every Single Procedure</span>
+            <h3 data-i18n="loupes_title">Ergoptix 3x Loupes With LED Illumination</h3>
+            <p data-i18n-html="loupes_desc">
+              Precision is our daily habit—not an occasional luxury. We wear <strong>Ergoptix 3x magnification loupes</strong> for <strong>every single procedure</strong>, from routine tooth-colored fillings and crown preparations to detailed clinical check-ups.
+            </p>
+            <ul>
+              <li data-i18n="loupes_li1">Cleaner decay removal and tightly sealed, durable fillings</li>
+              <li data-i18n="loupes_li2">Exact crown margins for natural comfort and longevity</li>
+              <li data-i18n="loupes_li3">Consistent detail-driven care across every appointment</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2: Ivoclar Bluephase N MC -->
+        <div class="tech-card">
+          <div class="tech-visual">
+            <img
+              src="ivoclar-bluephase-n-mc-100-240v.jpeg"
+              onerror="if(!this.dataset.f){this.dataset.f=1;this.src='ivoclar-bluephase-n-mc-100-240v.jpg';}"
+              alt="Ivoclar Bluephase N MC LED Curing Light" />
+          </div>
+          <div>
+            <span class="eyebrow" style="margin-bottom:8px;" data-i18n="curing_eyebrow">Zero Compromise on Materials &amp; Equipment</span>
+            <h3 data-i18n="curing_title">Ivoclar Bluephase LED Curing Precision</h3>
+            <p data-i18n-html="curing_desc">
+              A filling or restoration is only as strong as the equipment used to cure and bond it. We rely on international-grade <strong>Ivoclar Bluephase</strong> LED curing technology to ensure deep, complete polymerization of high-grade composite materials.
+            </p>
+            <ul>
+              <li data-i18n="curing_li1">Stronger bond strength and reduced risk of sensitivity or leakage</li>
+              <li data-i18n="curing_li2">Uniform curing for wear-resistant, long-lasting restorations</li>
+              <li data-i18n="curing_li3">Reflects our strict no-compromise standard inside your mouth</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 3: Runyes Digital Autoclave -->
+        <div class="tech-card">
+          <div class="tech-visual">
+            <img
+              src="image_2.png"
+              alt="Runyes Digital Dental Autoclave Sterilizer" />
+          </div>
+          <div>
+            <span class="eyebrow" style="margin-bottom:8px;" data-i18n="steril_eyebrow">Uncompromising Patient Safety</span>
+            <h3 data-i18n="steril_title">Digital Autoclave Sterilization System</h3>
+            <p data-i18n-html="steril_desc">
+              Your safety comes first on every visit. Our dedicated <strong>Runyes digital steam autoclave</strong> executes precise, pressure-monitored sterilization cycles for reusable instruments, paired with strictly single-use disposables.
+            </p>
+            <ul>
+              <li data-i18n="steril_li1">Monitored high-pressure steam sterilization between patients</li>
+              <li data-i18n="steril_li2">Freshly pouched sterile instruments and sanitized clinical surfaces</li>
+              <li data-i18n="steril_li3">Hospital-grade infection control you can trust completely</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 4: DSLR Macro Photography -->
+        <div class="tech-card">
+          <div class="tech-visual" style="padding:10px;">
+            <div class="dslr-diagram">
+              <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#E2C686" stroke-width="1.5" aria-hidden="true">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                <circle cx="12" cy="13" r="4"/>
+              </svg>
+              <strong class="serif" style="font-size:1.15rem;color:#FFFFFF;" data-i18n="dslr_diagram_t">DSLR • Macro Lens • Ring Flash</strong>
+              <div class="dslr-steps">
+                <span class="dslr-pill" data-i18n="dslr_p1">Pre-Op View</span>
+                <span class="dslr-pill" data-i18n="dslr_p2">Intra-Op View</span>
+                <span class="dslr-pill" data-i18n="dslr_p3">Post-Op Result</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="eyebrow" style="margin-bottom:8px;" data-i18n="dslr_eyebrow">100% Visual Transparency</span>
+            <h3 data-i18n="dslr_title">DSLR Dental Case Recording</h3>
+            <p data-i18n-html="dslr_desc">
+              We use a dedicated <strong>DSLR camera with a dental macro lens and ring flash</strong> specially for clinical documentation—showing you clear photographs before, during, and after your procedure.
+            </p>
+            <ul>
+              <li data-i18n-html="dslr_li1"><strong>Pre-Op:</strong> See the exact cavity, crack, or problem before starting</li>
+              <li data-i18n-html="dslr_li2"><strong>Intra-Op:</strong> Transparent record of meticulous clinical work</li>
+              <li data-i18n-html="dslr_li3"><strong>Post-Op:</strong> View your neatly restored tooth with total confidence</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet Our Doctors Section -->
+  <section class="section section-cream" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="doc_eyebrow">Our Clinical Leadership</span>
+        <h2 data-i18n="doc_title">Meet Our Dental Specialists</h2>
+        <p data-i18n="doc_sub">Combining specialist endodontics, restorative tooth preservation, and compassionate care for children, adults, and seniors.</p>
+      </div>
+
+      <!-- Doctor 1: Dr. Hrishikesh Ghule -->
+      <div class="doctor-grid">
+        <div class="doctor-frame">
+          <div class="doctor-photo">
+            <!-- Replace with portrait: <img src="dr-hrishikesh-ghule.jpg" alt="Dr. Hrishikesh Ghule" /> -->
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" style="margin-bottom:14px;opacity:0.8"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 12 0v1"/></svg>
+            <span class="serif" style="font-size:1.18rem;" data-i18n="doc1_name">Dr. Hrishikesh Ghule</span>
+            <small style="opacity:0.75;margin-top:6px;">dr-hrishikesh-ghule.jpg</small>
+          </div>
+          <div class="doctor-badge">
+            <strong data-i18n="doc1_name">Dr. Hrishikesh Ghule</strong>
+            <span data-i18n="doc1_badge">B.D.S., M.D.S. • 18+ Years Experience</span>
+          </div>
+        </div>
+
+        <div>
+          <span class="eyebrow" data-i18n="doc1_eyebrow">Founder &amp; Lead Endodontist</span>
+          <h2 style="font-size:clamp(1.85rem,3vw,2.5rem);margin-bottom:10px;" data-i18n="doc1_name">Dr. Hrishikesh Ghule</h2>
+          <div class="doc-role" data-i18n-html="doc1_role">
+            B.D.S., M.D.S. (Conservative Dentistry &amp; Endodontics)<br />
+            Micro-Endodontist &amp; Restorative Specialist &nbsp;|&nbsp; Pursuing Fellowship in Oral Implantology
+          </div>
+          <p class="doc-bio" data-i18n-html="doc1_bio">
+            With over <strong>18 years of clinical experience</strong> since completing his B.D.S. in Pune in 2008, Dr. Hrishikesh Ghule brings academic depth, ethical practice, and microscopic precision to Ambajogai. After completing his M.D.S. in Conservative Dentistry &amp; Endodontics in Nagpur (2013), serving as Associate Professor at M.I.D.S.R.'s Dental College &amp; Hospital, Latur till 2016, and practicing as a Consultant Endodontist till 2018, he founded <strong>Dr. Ghule Dental Care &amp; Root Canal Centre</strong> in 2018. Formally trained in restorative dentistry, he is deeply passionate about saving badly damaged natural teeth with unhurried care and zero compromise on quality.
+          </p>
+
+          <h3 class="doc-subtitle" data-i18n="doc1_hl_title">Career Highlights</h3>
+          <ul class="highlights-list">
+            <li data-i18n-html="doc1_hl1"><strong>Founder &amp; Lead Specialist (2018 – Present):</strong> Established Dr. Ghule Dental Care &amp; Root Canal Centre in Ambajogai</li>
+            <li data-i18n-html="doc1_hl2"><strong>Academic Leadership (Till 2016):</strong> Served as Associate Professor at M.I.D.S.R.'s Dental College &amp; Hospital, Latur</li>
+            <li data-i18n-html="doc1_hl3"><strong>Consultant Endodontist (Till 2018):</strong> Managed complex root canal referrals across dental clinics</li>
+            <li data-i18n-html="doc1_hl4"><strong>Restorative Dentistry Focus:</strong> Formally trained with a special interest in saving badly damaged teeth using magnification and premium materials</li>
+          </ul>
+
+          <h3 class="doc-subtitle" data-i18n="doc1_ed_title">Education &amp; Fellowships</h3>
+          <div class="credential-cards">
+            <div class="cred-card">
+              <small data-i18n="doc1_ed1_yr">Year: 2008</small>
+              <strong data-i18n="doc1_ed1_t">B.D.S. (Bachelor of Dental Surgery)</strong>
+              <span data-i18n="doc1_ed1_s">Dr. D.Y. Patil Dental College &amp; Hospital, Pune</span>
+            </div>
+            <div class="cred-card">
+              <small data-i18n="doc1_ed2_yr">Year: 2013</small>
+              <strong data-i18n="doc1_ed2_t">M.D.S. Conservative Dentistry &amp; Endodontics</strong>
+              <span data-i18n="doc1_ed2_s">V.S.P.M.'s Dental College &amp; Research Centre, Nagpur</span>
+            </div>
+            <div class="cred-card">
+              <small data-i18n="doc1_ed3_yr">Pursuing</small>
+              <strong data-i18n="doc1_ed3_t">Fellowship in Oral Implantology</strong>
+              <span data-i18n="doc1_ed3_s">Dr. H.S.R.S.M. Dental College &amp; Hospital</span>
+            </div>
+          </div>
+
+          <div class="pioneer-banner">
+            <div class="pioneer-icon" aria-hidden="true">✦</div>
+            <div>
+              <strong data-i18n="pioneer_t">Regional Milestone in Microscopic Dentistry</strong>
+              <span data-i18n="pioneer_p">First and only dental clinic in Beed and nearby districts to feature a fully equipped Dental Operating Microscope.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="doctor-divider"></div>
+
+      <!-- Doctor 2: Dr. Ashwini Shep Ghule -->
+      <div class="doctor-grid reverse">
+        <div>
+          <span class="eyebrow" data-i18n="doc2_eyebrow">Paediatric &amp; Geriatric Care</span>
+          <h2 style="font-size:clamp(1.85rem,3vw,2.5rem);margin-bottom:10px;" data-i18n="doc2_name">Dr. Ashwini Shep Ghule</h2>
+          <div class="doc-role" data-i18n-html="doc2_role">
+            B.D.S. &nbsp;|&nbsp; 12+ Years Clinical Experience<br />
+            Special Interest in Paediatric Dentistry &amp; Geriatric Dental Care
+          </div>
+          <p class="doc-bio" data-i18n-html="doc2_bio">
+            With over <strong>12 years of experience</strong> since earning her B.D.S. in 2014 from M.I.D.S.R.'s Dental College &amp; Hospital, Latur, Dr. Ashwini Shep Ghule brings warm, unhurried care to both children and elderly patients. Formally trained in <strong>Paediatric Dentistry</strong> and <strong>Geriatric Dentistry</strong>, she takes the time to make children feel completely comfortable while saving young teeth, and cares for senior citizens with deep patience, dignity, and clinical precision.
+          </p>
+
+          <h3 class="doc-subtitle" data-i18n="doc2_hl_title">Clinical Focus &amp; Highlights</h3>
+          <ul class="highlights-list">
+            <li data-i18n-html="doc2_hl1"><strong>Paediatric Dentistry:</strong> Formally trained in saving children's milk and permanent teeth with calm, fear-free care</li>
+            <li data-i18n-html="doc2_hl2"><strong>Geriatric Dentistry:</strong> Dedicated, gentle dental management tailored for elderly patients and senior family members</li>
+            <li data-i18n-html="doc2_hl3"><strong>Preventive Family Care:</strong> Unhurried check-ups, early cavity protection, and lasting oral wellness</li>
+          </ul>
+
+          <h3 class="doc-subtitle" data-i18n="doc2_ed_title">Qualifications &amp; Training</h3>
+          <div class="credential-cards two-col">
+            <div class="cred-card">
+              <small data-i18n="doc2_ed1_yr">Year: 2014</small>
+              <strong data-i18n="doc2_ed1_t">B.D.S. (Bachelor of Dental Surgery)</strong>
+              <span data-i18n="doc2_ed1_s">M.I.D.S.R.'s Dental College &amp; Hospital, Latur</span>
+            </div>
+            <div class="cred-card">
+              <small data-i18n="doc2_ed2_yr">Formal Training</small>
+              <strong data-i18n="doc2_ed2_t">Paediatric &amp; Geriatric Dentistry</strong>
+              <span data-i18n="doc2_ed2_s">Dedicated care for saving children's teeth &amp; treating elderly patients</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-frame">
+          <div class="doctor-photo">
+            <!-- Replace with portrait: <img src="dr-ashwini-ghule.jpg" alt="Dr. Ashwini Shep Ghule" /> -->
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" style="margin-bottom:14px;opacity:0.8"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 12 0v1"/></svg>
+            <span class="serif" style="font-size:1.18rem;" data-i18n="doc2_name">Dr. Ashwini Shep Ghule</span>
+            <small style="opacity:0.75;margin-top:6px;">dr-ashwini-ghule.jpg</small>
+          </div>
+          <div class="doctor-badge">
+            <strong data-i18n="doc2_name">Dr. Ashwini Shep Ghule</strong>
+            <span data-i18n="doc2_badge">B.D.S. • 12+ Years Experience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Philosophy Section -->
+  <section class="section section-white" id="philosophy">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="phil_eyebrow">Our Philosophy</span>
+        <h2 data-i18n="phil_title">Saving Natural Teeth Through Precision &amp; Compassion</h2>
+      </div>
+
+      <div class="quote-box">
+        <p data-i18n="phil_quote">
+          “In over eighteen years of dentistry, we have learned that the best tooth replacement is saving your natural tooth—with microscopic precision, honest guidance, and gentle care for every generation.”
+        </p>
+      </div>
+
+      <div class="pillar-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3 data-i18n="pil1_t">Microscopic Diagnosis</h3>
+          <p data-i18n="pil1_p">With Beed district's first Dental Operating Microscope, Ergoptix 3x loupes, and DSLR macro photography, we see hidden canals, micro-fractures, and early decay clearly—so treatment is guided by proof, never guesswork.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 data-i18n="pil2_t">Conservative Restoration</h3>
+          <p data-i18n="pil2_p">Even badly damaged teeth can often be preserved. Our restorative and endodontic protocols use uncompromising materials and unhurried technique to save natural tooth structure for true long-term durability.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 data-i18n="pil3_t">Care Across Generations</h3>
+          <p data-i18n="pil3_p">From gentle paediatric dentistry that keeps children smiling to attentive geriatric care for elderly patients, every family member receives ethical, respectful, and unhurried attention.</p>
+        </div>
+      </div>
+
+      <div class="comfort-strip">
+        <div class="comfort-pill" data-i18n="comf_1">✦ Soothing Clinical Environment</div>
+        <div class="comfort-pill" data-i18n="comf_2">✦ Dedicated Care After Treatment</div>
+        <div class="comfort-pill" data-i18n="comf_3">✦ Strict Autoclave Sterilization</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature Treatments -->
+  <section class="section section-cream" id="treatments">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="tr_eyebrow">Comprehensive Care</span>
+        <h2 data-i18n="tr_title">Our Dental Treatments</h2>
+        <p data-i18n="tr_sub">Performed under magnification with authentic high-grade materials, thoughtful planning, and DSLR photo documentation.</p>
+      </div>
+
+      <div class="treatments-grid">
+        <div class="treatment-card">
+          <span class="treatment-tag" data-i18n="tr1_tag">01 • Micro-Endodontics</span>
+          <h3 data-i18n="tr1_t">Microscope-Guided Root Canal</h3>
+          <p data-i18n="tr1_p">High-magnification root canal therapy using Beed district's first Dental Operating Microscope.</p>
+          <ul>
+            <li data-i18n="tr1_l1">Up to 19.2x Optical Magnification</li>
+            <li data-i18n="tr1_l2">Complex &amp; Re-Root Canal Retreatment</li>
+            <li data-i18n="tr1_l3">Thorough, Unhurried Tooth Preservation</li>
+          </ul>
+        </div>
+
+        <div class="treatment-card">
+          <span class="treatment-tag" data-i18n="tr2_tag">02 • Tooth Preservation</span>
+          <h3 data-i18n="tr2_t">Restorative Dentistry</h3>
+          <p data-i18n="tr2_p">Dedicated rehabilitation to rebuild and save badly damaged teeth for long-term chewing comfort.</p>
+          <ul>
+            <li data-i18n="tr2_l1">Saving Severely Decayed or Fractured Teeth</li>
+            <li data-i18n="tr2_l2">Precision Post, Core, Onlays &amp; Crowns</li>
+            <li data-i18n="tr2_l3">Ivoclar-Cured, Long-Lasting Restorations</li>
+          </ul>
+        </div>
+
+        <div class="treatment-card">
+          <span class="treatment-tag" data-i18n="tr3_tag">03 • Children &amp; Seniors</span>
+          <h3 data-i18n="tr3_t">Paediatric &amp; Geriatric Care</h3>
+          <p data-i18n="tr3_p">Gentle, specialized dentistry led by Dr. Ashwini Shep Ghule for young smiles and elderly patients.</p>
+          <ul>
+            <li data-i18n="tr3_l1">Saving Children's Milk &amp; Permanent Teeth</li>
+            <li data-i18n="tr3_l2">Preventive Care &amp; Gentle Restorations</li>
+            <li data-i18n="tr3_l3">Comfort-Focused Geriatric Dental Care</li>
+          </ul>
+        </div>
+
+        <div class="treatment-card">
+          <span class="treatment-tag" data-i18n="tr4_tag">04 • Replacement</span>
+          <h3 data-i18n="tr4_t">Dental Implants</h3>
+          <p data-i18n="tr4_p">Carefully planned, stable tooth replacement built for natural appearance and lasting bite strength.</p>
+          <ul>
+            <li data-i18n="tr4_l1">Single &amp; Multiple Tooth Implants</li>
+            <li data-i18n="tr4_l2">Implant-Supported Bridges &amp; Dentures</li>
+            <li data-i18n="tr4_l3">Detailed Planning &amp; Durable Prosthetics</li>
+          </ul>
+        </div>
+
+        <div class="treatment-card">
+          <span class="treatment-tag" data-i18n="tr5_tag">05 • Aesthetics</span>
+          <h3 data-i18n="tr5_t">Cosmetic Smile Makeovers</h3>
+          <p data-i18n="tr5_p">Refined aesthetic restorations designed under magnification to look completely natural.</p>
+          <ul>
+            <li data-i18n="tr5_l1">Porcelain Veneers &amp; Ceramic Crowns</li>
+            <li data-i18n="tr5_l2">In-Clinic Teeth Whitening &amp; Bonding</li>
+            <li data-i18n="tr5_l3">DSLR Pre-Op &amp; Post-Op Documentation</li>
+          </ul>
+        </div>
+
+        <div class="treatment-card">
+          <span class="treatment-tag" data-i18n="tr6_tag">06 • Alignment</span>
+          <h3 data-i18n="tr6_t">Braces &amp; Orthodontics</h3>
+          <p data-i18n="tr6_p">Personalized alignment solutions for teens and adults to achieve healthy, balanced bites.</p>
+          <ul>
+            <li data-i18n="tr6_l1">Metal &amp; Ceramic Braces</li>
+            <li data-i18n="tr6_l2">Clear Aligners</li>
+            <li data-i18n="tr6_l3">Consistent Local Follow-Ups in Ambajogai</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Patients Trust Us (01–08) -->
+  <section class="section section-white" id="trust">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="trust_eyebrow">The Clinic Advantage</span>
+        <h2 data-i18n="trust_title">Why Patients Trust Ghule Dental Care</h2>
+        <p data-i18n="trust_sub">Precision equipment, transparent visual proof, and sincere ethics that put your lifelong comfort first.</p>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card">
+          <span class="trust-num">01</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t1_t">1st &amp; Only Dental Microscope</h3>
+          <p data-i18n="t1_p">The first and only clinic in Beed and nearby districts equipped with a Dental Operating Microscope (up to 19.2x).</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">02</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t2_t">Ergoptix 3x Loupes Always</h3>
+          <p data-i18n="t2_p">Every single procedure—big or small—is performed under Ergoptix 3x magnification with utmost detail.</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">03</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t3_t">DSLR Visual Transparency</h3>
+          <p data-i18n="t3_p">Macro lens &amp; ring-flash DSLR photos show you Pre-Op, Intra-Op, and Post-Op details openly.</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">04</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t4_t">Unhurried Listening &amp; Planning</h3>
+          <p data-i18n="t4_p">We give ample time to hear your concerns and plan thoughtfully—never rushing into any procedure.</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">05</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t5_t">Ethics Over Money</h3>
+          <p data-i18n="t5_p">Never money-driven. Honest guidance designed to give you full value for every rupee of your hard-earned money.</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">06</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t6_t">Zero Compromise on Materials</h3>
+          <p data-i18n="t6_p">Authentic materials and global equipment like Ivoclar Bluephase so your treatment lasts a truly long time.</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">07</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t7_t">18+ Years M.D.S. &amp; Family Team</h3>
+          <p data-i18n="t7_p">Specialized endodontics &amp; restorative dentistry paired with dedicated paediatric and geriatric care.</p>
+        </div>
+        <div class="trust-card">
+          <span class="trust-num">08</span>
+          <div class="trust-divider"></div>
+          <h3 data-i18n="t8_t">Digital Autoclave Sterilization</h3>
+          <p data-i18n="t8_p">Runyes pressure-monitored steam autoclaving, single-use disposables, and spotless operatories every visit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipment & Clinical Gallery -->
+  <section class="section section-cream" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="gal_eyebrow">Inside Our Clinic</span>
+        <h2 data-i18n="gal_title">Equipment &amp; Clinical Gallery</h2>
+        <p data-i18n="gal_sub">Every tool in our Ambajogai clinic is chosen for clarity, hygiene, and lasting clinical outcomes.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item light-bg">
+          <img
+            src="image.png"
+            onerror="this.onerror=null;this.src='https://www.scivisionmedical.com/images/e6f88a2233dd315e173eb45f2492471be85f39e9.png';"
+            alt="iSee 9000 Dental Operating Microscope" />
+          <span class="gallery-caption" data-i18n="gal1">1st Dental Operating Microscope in Beed</span>
+        </div>
+
+        <div class="gallery-item light-bg">
+          <img
+            src="image (1).png.png"
+            onerror="if(!this.dataset.f){this.dataset.f=1;this.src='image (1).png';}"
+            alt="Multi-Step Magnification 2.1x to 19.2x" />
+          <span class="gallery-caption" data-i18n="gal2">2.1x to 19.2x Optical Magnification</span>
+        </div>
+
+        <div class="gallery-item light-bg">
+          <img
+            src="image (2).png"
+            onerror="if(!this.dataset.f){this.dataset.f=1;this.src='fd821b_46a7eeedf0a646318770d7b542a712be~mv2.jpg';}"
+            alt="Ergoptix 3x Dental Loupes" />
+          <span class="gallery-caption" data-i18n="gal3">Ergoptix 3x Loupes — Every Procedure</span>
+        </div>
+
+        <div class="gallery-item light-bg">
+          <img
+            src="ivoclar-bluephase-n-mc-100-240v.jpeg"
+            onerror="if(!this.dataset.f){this.dataset.f=1;this.src='ivoclar-bluephase-n-mc-100-240v.jpg';}"
+            alt="Ivoclar Bluephase N MC LED Curing Light" />
+          <span class="gallery-caption" data-i18n="gal4">Ivoclar Bluephase LED Curing Light</span>
+        </div>
+
+        <div class="gallery-item light-bg">
+          <img
+            src="image_2.png"
+            alt="Runyes Digital Autoclave Sterilizer" />
+          <span class="gallery-caption" data-i18n="gal5">Runyes Digital Autoclave Sterilizer</span>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://img.youtube.com/vi/M-e0fExndF4/0.jpg"
+            onerror="this.onerror=null;this.src='image.png';"
+            alt="Microscope Precision View" />
+          <span class="gallery-caption" data-i18n="gal6">Microscope-Guided Endodontics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Luxury Booking CTA Banner -->
+  <section class="section section-white" style="padding-top:32px;padding-bottom:44px;">
+    <div class="container">
+      <div class="cta-banner">
+        <span class="eyebrow" data-i18n="cta_eyebrow">Experience Honest, Unhurried Care</span>
+        <h2 data-i18n="cta_title">Ready to book your dental consultation?</h2>
+        <p data-i18n="cta_desc">
+          Sit down with us, share your concerns without feeling rushed, and experience microscope-guided, transparent dentistry built to last.
+        </p>
+        <div class="hero-actions" style="justify-content:center;">
+          <button type="button" class="btn btn-gold" onclick="openBookingModal()" data-i18n="btn_book_wa">Book via WhatsApp</button>
+          <a class="btn btn-outline-light" href="tel:+919067801333" data-i18n="btn_call">Call 90678 01333</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Embedded Map -->
+  <section class="section section-white" id="contact" style="padding-top:36px;">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="con_eyebrow">Visit Us</span>
+        <h2 data-i18n="con_title">Contact &amp; Directions</h2>
+        <p data-i18n="con_sub">Conveniently located at Varad Heights, beside Thorat Hospital and near Tathagat Chowk, Ambajogai.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div>
+            <div class="contact-row">
+              <small data-i18n="con_addr_lbl">Clinic Address</small>
+              <p data-i18n="con_addr">1st Floor, Varad Heights, beside Thorat Hospital, Near Tathagat Chowk, Ambajogai, Dist- Beed, Maharashtra, India</p>
+            </div>
+            <div class="contact-row">
+              <small data-i18n="con_phone_lbl">Phone &amp; WhatsApp</small>
+              <p><a href="tel:+919067801333">+91 90678 01333</a></p>
+            </div>
+            <div class="contact-row">
+              <small data-i18n="con_hours_lbl">Clinic Timings</small>
+              <p data-i18n="con_hours">Monday – Saturday: 10:30 AM – 7:00 PM</p>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <button type="button" class="btn btn-gold" onclick="openBookingModal()" data-i18n="btn_book_full">Book an Appointment</button>
+          </div>
+        </div>
+
+        <div class="map-frame">
+          <iframe
+            title="Ghule Dental Care &amp; Root Canal Centre Location"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Ghule+Dental+Care+Root+Canal+Centre+Varad+Heights+Tathagat+Chowk+Ambajogai+Maharashtra&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-Column Luxury Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4 data-i18n="foot_clinic">Ghule Dental Care &amp; Root Canal Centre</h4>
+          <p data-i18n="foot_desc">
+            Home to the 1st &amp; only Dental Operating Microscope in Beed and nearby districts—delivering ethical, transparent, long-lasting dental care for every generation in Ambajogai.
+          </p>
+        </div>
+
+        <div>
+          <h4 data-i18n="foot_links_t">Quick Links</h4>
+          <ul>
+            <li><a href="#welcome" data-i18n="nav_welcome">Welcome</a></li>
+            <li><a href="#technology" data-i18n="nav_tech">Equipment</a></li>
+            <li><a href="#about" data-i18n="nav_doctors">Our Doctors</a></li>
+            <li><a href="#philosophy" data-i18n="nav_philosophy">Philosophy</a></li>
+            <li><a href="#treatments" data-i18n="nav_treatments">Treatments</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="foot_tr_t">Our Treatments</h4>
+          <ul>
+            <li><a href="#treatments" data-i18n="tr1_t">Microscope-Guided Root Canal</a></li>
+            <li><a href="#treatments" data-i18n="tr2_t">Restorative Dentistry</a></li>
+            <li><a href="#treatments" data-i18n="tr3_t">Paediatric &amp; Geriatric Care</a></li>
+            <li><a href="#treatments" data-i18n="tr4_t">Dental Implants</a></li>
+            <li><a href="#treatments" data-i18n="tr5_t">Cosmetic Smile Makeovers</a></li>
+            <li><a href="#treatments" data-i18n="tr6_t">Braces &amp; Orthodontics</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="nav_contact">Contact</h4>
+          <p data-i18n="con_addr">
+            1st Floor, Varad Heights, beside Thorat Hospital, Near Tathagat Chowk, Ambajogai, Dist- Beed, Maharashtra, India
+          </p>
+          <p style="margin-top:10px;">
+            <strong data-i18n="foot_phone_lbl">Phone:</strong> <a href="tel:+919067801333">+91 90678 01333</a><br />
+            <strong data-i18n="foot_time_lbl">Timings:</strong> <span data-i18n="con_hours">Monday – Saturday: 10:30 AM – 7:00 PM</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="foot_copy">© 2026 Ghule Dental Care &amp; Root Canal Centre. All rights reserved.</span>
+        <span data-i18n="foot_docs">Dr. Hrishikesh Ghule (B.D.S., M.D.S.) &amp; Dr. Ashwini Shep Ghule (B.D.S.)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Booking Trigger -->
+  <button type="button" class="wa-float" onclick="openBookingModal()" aria-label="Book Appointment on WhatsApp">
+    <span>💬</span> <span data-i18n="wa_float">Book on WhatsApp</span>
+  </button>
+
+  <!-- Interactive WhatsApp Appointment Booking Modal -->
+  <div class="modal-backdrop" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <small data-i18n="mod_eyebrow">Ghule Dental Care • Ambajogai</small>
+          <h3 id="modalTitle" data-i18n="mod_title">Book Your Dental Consultation</h3>
+        </div>
+        <button type="button" class="modal-close" aria-label="Close" onclick="closeBookingModal()">×</button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm" onsubmit="submitWhatsAppBooking(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="patientName" data-i18n="mod_name_lbl">Patient Full Name *</label>
+              <input type="text" id="patientName" required data-i18n-placeholder="mod_name_ph" placeholder="e.g., Rajesh Deshmukh" />
+            </div>
+            <div class="form-group">
+              <label for="patientPhone" data-i18n="mod_phone_lbl">Mobile Number *</label>
+              <input type="tel" id="patientPhone" required data-i18n-placeholder="mod_phone_ph" placeholder="10-digit mobile number" />
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="doctorChoice" data-i18n="mod_doc_lbl">Preferred Doctor</label>
+              <select id="doctorChoice">
+                <option value="Either Doctor / First Available" data-i18n="mod_doc_opt0">Either Doctor / First Available</option>
+                <option value="Dr. Hrishikesh Ghule (Root Canal & Restorative)" data-i18n="mod_doc_opt1">Dr. Hrishikesh Ghule (Root Canal &amp; Restorative)</option>
+                <option value="Dr. Ashwini Shep Ghule (Children & Senior Care)" data-i18n="mod_doc_opt2">Dr. Ashwini Shep Ghule (Children &amp; Senior Care)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="treatmentChoice" data-i18n="mod_tr_lbl">Treatment / Concern</label>
+              <select id="treatmentChoice">
+                <option value="General Check-up & Consultation" data-i18n="mod_tr_opt0">General Check-up &amp; Consultation</option>
+                <option value="Microscope-Guided Root Canal" data-i18n="mod_tr_opt1">Microscope-Guided Root Canal</option>
+                <option value="Saving a Badly Damaged Tooth / Crown" data-i18n="mod_tr_opt2">Saving a Badly Damaged Tooth / Crown</option>
+                <option value="Paediatric Dentistry (Child)" data-i18n="mod_tr_opt3">Paediatric Dentistry (Child)</option>
+                <option value="Geriatric Dentistry (Elderly)" data-i18n="mod_tr_opt4">Geriatric Dentistry (Elderly)</option>
+                <option value="Dental Implants" data-i18n="mod_tr_opt5">Dental Implants</option>
+                <option value="Cosmetic / Smile Makeover" data-i18n="mod_tr_opt6">Cosmetic / Smile Makeover</option>
+                <option value="Braces / Orthodontics" data-i18n="mod_tr_opt7">Braces / Orthodontics</option>
+                <option value="Toothache / Urgent Care" data-i18n="mod_tr_opt8">Toothache / Urgent Care</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="preferredDate" data-i18n="mod_date_lbl">Preferred Date *</label>
+              <input type="date" id="preferredDate" required />
+            </div>
+            <div class="form-group">
+              <label for="preferredSlot" data-i18n="mod_slot_lbl">Preferred Time Slot</label>
+              <select id="preferredSlot">
+                <option value="Morning (10:30 AM – 1:30 PM)" data-i18n="mod_slot_1">Morning (10:30 AM – 1:30 PM)</option>
+                <option value="Afternoon (1:30 PM – 4:30 PM)" data-i18n="mod_slot_2">Afternoon (1:30 PM – 4:30 PM)</option>
+                <option value="Evening (4:30 PM – 7:00 PM)" data-i18n="mod_slot_3">Evening (4:30 PM – 7:00 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="patientNotes" data-i18n="mod_notes_lbl">Brief Note / Symptoms (Optional)</label>
+            <textarea id="patientNotes" rows="2" data-i18n-placeholder="mod_notes_ph" placeholder="Tell us briefly about any pain, sensitivity, or questions..."></textarea>
+          </div>
+
+          <p class="modal-note" data-i18n="mod_note">
+            Clinic Hours: Mon – Sat, 10:30 AM – 7:00 PM. Clicking below opens a pre-filled WhatsApp message directly to +91 90678 01333.
+          </p>
+
+          <button type="submit" class="btn btn-gold modal-submit" data-i18n="mod_submit">
+            Send Appointment Request on WhatsApp →
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
