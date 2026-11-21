@@ -290,6 +290,15 @@ img { max-width: 100%; display: block; }
   max-width: 580px;
   margin-bottom: 30px;
 }
+.hero-tagline {
+  color: var(--gold-light) !important;
+  font-family: 'Lora', 'Noto Sans Devanagari', Georgia, serif;
+  font-size: 1.06rem !important;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-top: -6px;
+  margin-bottom: 16px !important;
+}
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -523,209 +532,6 @@ img { max-width: 100%; display: block; }
   line-height: 1.65;
 }
 
-/* Precision Technology Section */
-.scope-feature {
-  background: linear-gradient(135deg, var(--maroon-deep) 0%, var(--maroon) 100%);
-  border: 1px solid var(--gold);
-  border-radius: var(--radius-lg);
-  padding: 40px;
-  color: var(--white);
-  box-shadow: var(--shadow-lg);
-  margin-bottom: 30px;
-}
-.scope-top-grid {
-  display: grid;
-  grid-template-columns: 1.05fr 1.15fr;
-  gap: 36px;
-  align-items: center;
-}
-.scope-visual-stack {
-  display: grid;
-  gap: 16px;
-}
-.scope-img-box {
-  background: var(--white);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  border: 1px solid rgba(226, 198, 134, 0.5);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.scope-img-box img {
-  max-height: 270px;
-  width: auto;
-  object-fit: contain;
-}
-.scope-img-caption {
-  margin-top: 10px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--maroon);
-  text-align: center;
-}
-.scope-action-thumb {
-  display: grid;
-  grid-template-columns: 130px 1fr;
-  gap: 16px;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(226, 198, 134, 0.35);
-  border-radius: var(--radius-sm);
-  padding: 12px;
-}
-.scope-action-thumb img {
-  width: 130px;
-  height: 90px;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid rgba(226, 198, 134, 0.4);
-}
-.scope-action-thumb strong {
-  display: block;
-  color: var(--gold-light);
-  font-size: 0.9rem;
-  margin-bottom: 4px;
-}
-.scope-action-thumb span {
-  font-size: 0.79rem;
-  color: rgba(255, 255, 255, 0.84);
-  line-height: 1.45;
-  display: block;
-}
-
-.scope-feature h3 {
-  color: var(--white);
-  font-size: clamp(1.55rem, 2.6vw, 2.12rem);
-  margin-bottom: 14px;
-}
-.scope-feature p {
-  color: rgba(255, 255, 255, 0.86);
-  font-size: 0.94rem;
-  margin-bottom: 16px;
-}
-.scope-points {
-  list-style: none;
-  display: grid;
-  gap: 10px;
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.92);
-}
-.scope-points li::before {
-  content: "✦ ";
-  color: var(--gold-light);
-}
-
-.mag-showcase {
-  margin-top: 28px;
-  background: var(--white);
-  border-radius: var(--radius-md);
-  padding: 22px 24px;
-  border: 1px solid rgba(226, 198, 134, 0.55);
-  text-align: center;
-}
-.mag-showcase small {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: var(--gold);
-  margin-bottom: 6px;
-}
-.mag-showcase h4 {
-  font-size: 1.18rem;
-  margin-bottom: 12px;
-  color: var(--maroon-deep);
-}
-.mag-showcase img {
-  margin: 0 auto 10px;
-  max-height: 170px;
-  width: auto;
-  object-fit: contain;
-}
-.mag-showcase p {
-  color: var(--muted);
-  font-size: 0.86rem;
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-/* 4-Card Equipment Grid */
-.tech-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-.tech-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 28px 26px;
-  box-shadow: var(--shadow-sm);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
-}
-.tech-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--gold);
-  box-shadow: var(--shadow-md);
-}
-.tech-visual {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 16px;
-  height: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.tech-visual img {
-  max-height: 100%;
-  width: auto;
-  object-fit: contain;
-}
-.dslr-diagram {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #2B0913 0%, #4E1324 100%);
-  border-radius: 10px;
-  padding: 20px;
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 12px;
-}
-.dslr-steps {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-}
-.dslr-pill {
-  background: rgba(226, 198, 134, 0.16);
-  border: 1px solid rgba(226, 198, 134, 0.5);
-  color: var(--gold-light);
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.73rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.tech-card h3 { font-size: 1.26rem; margin-bottom: 8px; }
-.tech-card p { font-size: 0.9rem; color: var(--muted); margin-bottom: 12px; }
-.tech-card ul { list-style: none; display: grid; gap: 7px; font-size: 0.85rem; color: var(--ink); }
-.tech-card ul li::before { content: "✓ "; color: var(--gold); font-weight: 700; }
-
 /* Doctor Profile Sections */
 .doctor-grid {
   display: grid;
@@ -798,16 +604,47 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--border);
   line-height: 1.65;
 }
-.doc-bio { color: var(--muted); margin-bottom: 22px; font-size: 0.95rem; }
-.doc-subtitle { font-size: 1.15rem; margin: 26px 0 14px; color: var(--maroon-deep); }
-.highlights-list { list-style: none; display: grid; gap: 10px; margin-bottom: 26px; }
+.doc-bio { color: var(--muted); margin-bottom: 20px; font-size: 0.95rem; }
+.doc-subtitle { font-size: 1.15rem; margin: 24px 0 14px; color: var(--maroon-deep); }
+.highlights-list { list-style: none; display: grid; gap: 10px; margin-bottom: 24px; }
 .highlights-list li { position: relative; padding-left: 24px; font-size: 0.91rem; color: var(--ink); }
 .highlights-list li::before { content: "◆"; position: absolute; left: 0; color: var(--gold); font-size: 0.75rem; top: 4px; }
+
+/* Signature Forte Pills */
+.forte-box {
+  background: var(--gold-pale);
+  border: 1px solid var(--gold);
+  border-left: 4px solid var(--maroon);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  margin-bottom: 22px;
+}
+.forte-box small {
+  display: block;
+  font-size: 0.71rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  margin-bottom: 8px;
+}
+.forte-list {
+  list-style: none;
+  display: grid;
+  gap: 7px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--maroon-deep);
+}
+.forte-list li::before {
+  content: "✦ ";
+  color: var(--gold);
+}
 
 .credential-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .credential-cards.two-col { grid-template-columns: repeat(2, 1fr); }
 .cred-card {
-  background: var(--white);
+  background: var(--ivory);
   border: 1px solid var(--border);
   border-top: 3px solid var(--gold);
   border-radius: var(--radius-sm);
@@ -938,7 +775,318 @@ img { max-width: 100%; display: block; }
 .trust-card h3 { font-size: 1.04rem; margin-bottom: 10px; }
 .trust-card p { font-size: 0.86rem; color: var(--muted); line-height: 1.62; }
 
-/* Gallery */
+/* =========================================================
+   Precision Equipment & Technology Section
+   ========================================================= */
+.scope-feature {
+  background: linear-gradient(135deg, var(--maroon-deep) 0%, var(--maroon) 100%);
+  border: 1px solid var(--gold);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  color: var(--white);
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 30px;
+}
+.scope-top-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 1.12fr;
+  gap: 36px;
+  align-items: center;
+}
+.scope-visual-stack {
+  display: grid;
+  gap: 16px;
+}
+.scope-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.scope-img-box {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  border: 1px solid rgba(226, 198, 134, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.scope-img-box img {
+  height: 215px;
+  width: auto;
+  object-fit: contain;
+}
+.scope-img-caption {
+  margin-top: 10px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--maroon);
+  text-align: center;
+}
+.scope-action-thumb {
+  display: grid;
+  grid-template-columns: 126px 1fr;
+  gap: 14px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(226, 198, 134, 0.35);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+}
+.scope-action-thumb img {
+  width: 126px;
+  height: 86px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(226, 198, 134, 0.4);
+}
+.scope-action-thumb strong {
+  display: block;
+  color: var(--gold-light);
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+.scope-action-thumb span {
+  font-size: 0.79rem;
+  color: rgba(255, 255, 255, 0.84);
+  line-height: 1.45;
+  display: block;
+}
+
+.scope-feature h3 {
+  color: var(--white);
+  font-size: clamp(1.55rem, 2.6vw, 2.12rem);
+  margin-bottom: 14px;
+}
+.scope-feature p {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.94rem;
+  margin-bottom: 16px;
+}
+.scope-points {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+.scope-points li::before {
+  content: "✦ ";
+  color: var(--gold-light);
+}
+
+.mag-showcase {
+  margin-top: 28px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  border: 1px solid rgba(226, 198, 134, 0.55);
+  text-align: center;
+}
+.mag-showcase small {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.mag-showcase h4 {
+  font-size: 1.18rem;
+  margin-bottom: 12px;
+  color: var(--maroon-deep);
+}
+.mag-showcase img {
+  margin: 0 auto 10px;
+  max-height: 170px;
+  width: auto;
+  object-fit: contain;
+}
+.mag-showcase p {
+  color: var(--muted);
+  font-size: 0.86rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Equipment Cards Grid */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.tech-card {
+  background: var(--ivory);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 28px 26px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.tech-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md);
+  background: var(--white);
+}
+.tech-card.highlight-card {
+  border-color: var(--gold);
+  background: var(--white);
+}
+.tech-visual {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.tech-visual.dark-visual {
+  background: #140F0C;
+  padding: 0;
+}
+.tech-visual.dark-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tech-visual img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* DSLR 3-Piece Equipment Collage */
+.dslr-collage {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: stretch;
+}
+.dslr-piece {
+  background: var(--white);
+  border: 1px solid rgba(198, 160, 82, 0.25);
+  border-radius: 8px;
+  padding: 8px 6px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.dslr-piece img {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+}
+.dslr-piece span {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--maroon);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.tech-card h3 { font-size: 1.25rem; margin-bottom: 8px; }
+.tech-card p { font-size: 0.9rem; color: var(--muted); margin-bottom: 12px; }
+.tech-card ul { list-style: none; display: grid; gap: 7px; font-size: 0.85rem; color: var(--ink); }
+.tech-card ul li::before { content: "✓ "; color: var(--gold); font-weight: 700; }
+
+/* Full-Width Upcoming Shining 3D Neo IOS Card */
+.ios-card {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, #FAF7F2 0%, #F5ECD9 100%);
+  border: 1.5px solid var(--gold);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  box-shadow: var(--shadow-md);
+  display: grid;
+  grid-template-columns: 0.92fr 1.25fr;
+  gap: 32px;
+  align-items: center;
+}
+.coming-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--maroon);
+  color: var(--gold-light);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.71rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.ios-visual {
+  position: relative;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  min-height: 255px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.ios-visual img {
+  max-height: 235px;
+  width: auto;
+  object-fit: contain;
+}
+.ios-fallback {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  background: linear-gradient(135deg, var(--maroon-deep) 0%, var(--maroon) 100%);
+  border-radius: 12px;
+  padding: 24px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.ios-fallback strong {
+  font-family: 'Lora', 'Noto Sans Devanagari', serif;
+  font-size: 1.28rem;
+  color: var(--gold-light);
+}
+.ios-fallback span {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+.ios-card h3 { font-size: 1.45rem; margin-bottom: 10px; }
+.ios-card p { font-size: 0.92rem; color: var(--muted); margin-bottom: 14px; }
+.ios-card ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9px 16px;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+.ios-card ul li::before { content: "✦ "; color: var(--gold); font-weight: 700; }
+
+/* =========================================================
+   Gallery & Pre-Op / Post-Op Clinical Cases
+   ========================================================= */
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .gallery-item {
   position: relative;
@@ -969,6 +1117,108 @@ img { max-width: 100%; display: block; }
   color: var(--gold-light);
 }
 .gallery-item.light-bg .gallery-caption { position: absolute; bottom: 14px; left: 14px; }
+
+/* Pre-Op & Post-Op Clinical Cases Sub-Section */
+.cases-wrap {
+  margin-top: 64px;
+  padding-top: 52px;
+  border-top: 1px solid var(--border);
+}
+.cases-head {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 38px;
+}
+.cases-head h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+  margin-bottom: 10px;
+}
+.cases-head p {
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.case-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.case-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md);
+}
+.case-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.case-slot {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #3A0D1A, #5B182B);
+  border: 1px solid rgba(198, 160, 82, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.case-slot img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.case-placeholder {
+  font-size: 0.72rem;
+  color: rgba(226, 198, 134, 0.88);
+  line-height: 1.4;
+  z-index: 1;
+}
+.case-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 3;
+  background: rgba(44, 10, 20, 0.88);
+  color: var(--gold-light);
+  border: 1px solid rgba(226, 198, 134, 0.5);
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.case-tag.post {
+  background: #1E7E45;
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+.case-info h4 {
+  font-size: 1.03rem;
+  margin-bottom: 4px;
+}
+.case-info p {
+  font-size: 0.83rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
 
 /* Dark CTA Banner */
 .cta-banner {
@@ -1163,20 +1413,23 @@ img { max-width: 100%; display: block; }
     box-shadow: var(--shadow-md);
   }
   .info-strip, .trust-grid, .promise-grid { grid-template-columns: repeat(2, 1fr); }
-  .hero-grid, .welcome-grid, .scope-top-grid, .tech-grid, .doctor-grid, .doctor-grid.reverse, .contact-grid { grid-template-columns: 1fr; }
+  .hero-grid, .welcome-grid, .scope-top-grid, .tech-grid, .ios-card, .doctor-grid, .doctor-grid.reverse, .contact-grid { grid-template-columns: 1fr; }
   .doctor-grid.reverse .doctor-frame { order: -1; }
-  .pillar-grid, .treatments-grid, .gallery-grid, .footer-grid { grid-template-columns: repeat(2, 1fr); }
+  .pillar-grid, .treatments-grid, .gallery-grid, .cases-grid, .footer-grid { grid-template-columns: repeat(2, 1fr); }
   .doctor-frame { max-width: 420px; margin: 0 auto 28px; }
 }
 @media (max-width: 720px) {
   .nav-cta { display: none; }
   .brand-text strong { font-size: 0.92rem; }
-  .info-strip, .welcome-stats, .promise-grid, .pillar-grid, .comfort-strip, .treatments-grid, .trust-grid, .gallery-grid, .credential-cards, .credential-cards.two-col, .footer-grid, .form-grid {
+  .info-strip, .welcome-stats, .promise-grid, .pillar-grid, .comfort-strip, .treatments-grid, .trust-grid, .gallery-grid, .cases-grid, .credential-cards, .credential-cards.two-col, .footer-grid, .form-grid, .scope-dual, .ios-card ul {
     grid-template-columns: 1fr;
   }
+  .dslr-collage { grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .dslr-piece img { height: 110px; }
   .scope-action-thumb { grid-template-columns: 1fr; text-align: center; }
   .scope-action-thumb img { margin: 0 auto; }
   .scope-feature { padding: 26px 20px; }
+  .ios-card { padding: 24px 20px; }
   .heart-letter { padding: 26px 20px; }
   .section { padding: 62px 0; }
   .hero { padding: 50px 0 106px; }
