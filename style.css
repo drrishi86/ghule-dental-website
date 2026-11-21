@@ -1436,3 +1436,276 @@ img { max-width: 100%; display: block; }
   .cta-banner { padding: 42px 20px; }
   .modal-header, .modal-body { padding: 20px; }
 }
+
+/* =========================================================
+   Root Canal 3-Image Clinical Strip (Inside Treatments)
+   ========================================================= */
+.rct-pillars-wrap {
+  margin-top: 56px;
+  padding-top: 48px;
+  border-top: 1px solid var(--border);
+}
+.rct-pillars-head {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 36px;
+}
+.rct-pillars-head h3 {
+  font-size: clamp(1.48rem, 2.5vw, 2.05rem);
+  margin-bottom: 10px;
+}
+.rct-pillars-head p {
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+.rct-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.rct-pillar-card {
+  background: var(--ivory);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
+}
+.rct-pillar-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md);
+  background: var(--white);
+}
+.rct-pillar-img {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: #1B070D;
+  overflow: hidden;
+}
+.rct-pillar-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.rct-pillar-card:hover .rct-pillar-img img {
+  transform: scale(1.04);
+}
+.rct-step-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(44, 10, 20, 0.88);
+  color: var(--gold-light);
+  border: 1px solid rgba(226, 198, 134, 0.55);
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.rct-pillar-body {
+  padding: 22px 22px 24px;
+}
+.rct-pillar-body h4 {
+  font-size: 1.12rem;
+  margin-bottom: 8px;
+}
+.rct-pillar-body p {
+  font-size: 0.86rem;
+  color: var(--muted);
+  line-height: 1.62;
+}
+
+/* =========================================================
+   Complete Dental Care for Your Family (Carousel Cards)
+   ========================================================= */
+.family-carousel-wrap {
+  position: relative;
+  padding: 0 28px;
+}
+.family-track {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 10px 4px 18px;
+  scrollbar-width: none;
+}
+.family-track::-webkit-scrollbar {
+  display: none;
+}
+.family-card {
+  flex: 0 0 calc((100% - 48px) / 3);
+  min-width: 310px;
+  scroll-snap-align: start;
+  background: var(--white);
+  border: 1px solid rgba(198, 160, 82, 0.26);
+  border-radius: 22px;
+  padding: 34px 24px 28px;
+  box-shadow: 0 10px 30px rgba(44, 10, 20, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
+}
+.family-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md);
+}
+.family-card-top {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.family-card-top h3 {
+  font-size: 1.42rem;
+  margin-bottom: 12px;
+  color: var(--maroon-deep);
+}
+.family-card-top p {
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.family-subgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid rgba(198, 160, 82, 0.22);
+}
+.family-subitem {
+  padding: 20px 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.family-subitem:nth-child(odd) {
+  border-right: 1px solid rgba(198, 160, 82, 0.22);
+}
+.family-subitem:nth-child(1),
+.family-subitem:nth-child(2) {
+  border-bottom: 1px solid rgba(198, 160, 82, 0.22);
+}
+.family-subitem svg {
+  color: var(--maroon);
+  opacity: 0.88;
+}
+.family-subitem span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.38;
+}
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 22px rgba(44, 10, 20, 0.14);
+  color: var(--maroon-deep);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.carousel-nav:hover {
+  background: var(--maroon);
+  color: var(--gold-light);
+}
+.carousel-nav.prev { left: 0; }
+.carousel-nav.next { right: 0; }
+
+/* =========================================================
+   Patient Testimonials (Verified Google Reviews)
+   ========================================================= */
+.reviews-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--white);
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  padding: 10px 22px;
+  margin-top: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.reviews-stars {
+  color: #D49B2A;
+  letter-spacing: 2px;
+  font-size: 1.05rem;
+}
+.reviews-summary strong {
+  color: var(--maroon-deep);
+  font-size: 0.92rem;
+}
+.reviews-summary span {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+.review-card {
+  background: var(--ivory);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-md);
+  padding: 28px 26px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  background: var(--white);
+}
+.review-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.review-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--maroon);
+  background: var(--gold-pale);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.review-text {
+  font-family: 'Lora', 'Noto Sans Devanagari', Georgia, serif;
+  font-size: 0.96rem;
+  color: var(--ink);
+  line-height: 1.72;
+}
+.review-author {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--maroon);
+  padding-top:
