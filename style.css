@@ -1588,3 +1588,38 @@ button.info-card, a.info-card { cursor: pointer; }
     font-size: 0.84rem;
   }
 }
+
+/* =========================================================
+   5-Card Balanced Promise Grid
+   ========================================================= */
+.promise-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+.promise-card {
+  padding: 22px 18px;
+}
+.promise-card h3 {
+  font-size: 1.02rem;
+}
+.promise-card p {
+  font-size: 0.84rem;
+}
+@media (max-width: 1080px) {
+  .promise-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+  .promise-card {
+    flex: 0 1 calc(33.333% - 12px);
+  }
+}
+@media (max-width: 720px) {
+  .promise-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
